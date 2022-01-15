@@ -1,0 +1,162 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.header-name{
+ 
+    margin-left: 120px;
+    margin-top: 80px;
+    
+}
+.header-name h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.first-section{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 120px;
+    margin-bottom: 140px;
+    
+}
+.first-section-width{
+    width: 50%;
+}
+.first-section-width h1{
+    font-size: 52px;
+    font-style: bold;
+    font-weight: 600;
+    color:black;
+}
+.first-section-width img{
+    width: 70%;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.first-section-width p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.container{
+    
+    width: 70%;
+    height: 80%;
+    margin-top: 21px;
+    margin-left: 130px;
+   
+}
+.popular{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+
+}
+.section-title{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.collection .collection-banner img{
+        height: 200px;
+        width: 250px;
+}
+.collection-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+.fa-star{
+    font-size: 12px;
+
+}
+.fa-star.filled{
+    color: #ffc014;
+    
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+
+.collection{
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px grey;   
+    margin: 20px;
+    padding: 15px;
+}
+.collection-para p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
+}
+.see-more{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    float: right;
+    margin-right: 0px;
+}
+
+footer{
+
+        background-color: #0A0826;
+        text-align: center;
+        color: white;
+        margin-top: 70px;
+        padding: 20px;
+}
+footer>div>h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+footer div h5{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-weight: 300;
+}
+footer>div>h6{
+   margin: 3px;
+   font-weight: 300;
+}
+footer .icon{
+    margin: 10px;
+}
+.first-section-width a .pre-icon{
+    margin-left: 6px;
+   
+}
+#see-id{
+    margin-left: 3px;
+}
+.link-button:hover{
+    background-color: #A52A2A;
+    font-size: 17px;
+}
+.see-more:hover{
+    color: #A52A2A;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
