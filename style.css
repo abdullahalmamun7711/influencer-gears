@@ -9,6 +9,9 @@ body{
     height: 100%;
     width: 100%;
 }
+
+  /* Header section */
+
 .header-name{
  
     margin-left: 120px;
@@ -19,6 +22,12 @@ body{
     font-size: 52px;
     font-weight: bold;
 }
+
+/* End header section */
+
+
+
+/* first section css */
 .first-section{
     display: flex;
     margin-top: 150px;
@@ -84,6 +93,22 @@ body{
     justify-content: space-between;
     float: left;
 }
+.first-section-width a .pre-icon{
+    margin-left: 6px;
+   
+}
+#see-id{
+    margin-left: 3px;
+}
+.link-button:hover{
+    background-color: #A52A2A;
+    font-size: 17px;
+}
+.see-more:hover{
+    color: #A52A2A;
+    font-weight: 900;
+    font-size: 25px;
+}
 .fa-star{
     font-size: 12px;
 
@@ -117,6 +142,13 @@ body{
     margin-right: 0px;
 }
 
+/* end first section css */
+
+
+
+/* footer */
+
+
 footer{
 
         background-color: #0A0826;
@@ -142,22 +174,11 @@ footer>div>h6{
 footer .icon{
     margin: 10px;
 }
-.first-section-width a .pre-icon{
-    margin-left: 6px;
-   
-}
-#see-id{
-    margin-left: 3px;
-}
-.link-button:hover{
-    background-color: #A52A2A;
-    font-size: 17px;
-}
-.see-more:hover{
-    color: #A52A2A;
-    font-weight: 900;
-    font-size: 25px;
-}
+
+/* footer */
+
+
+
 /*----- Media Queries---- */
 
 @media only screen and (max-width:480px) {
